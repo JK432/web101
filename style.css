@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar selcted ussing id */
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 45px;
+    background-color: rgb(42, 42, 145);
+    padding-top: 5px;
+    padding-right: 45px;
+}
+
+/* link tag selected ussing tag name */
+a {
+    text-decoration: none !important;
+}
+
+/* navbar items selected ussing classname */
+.navitem {
+    padding-left: 30px;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+
+.home {
+    background-color: rgb(49, 170, 134);
+    height: 100vh;
+    color: antiquewhite;
+}
+
+.hcontent {
+    width: max-content;
+    height: max-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+
+}
+.hdetails{
+    width: max-content;
+    padding-left: 60px;
+}
+#name{
+    font-weight:700 ;
+    font-size: 5em;
+}
+
+#pimg {
+    height: 380px;
+    border-radius: 950px;
+}
+#hadd{
+    font-size: 1.8em;
+}
+
+
+#project{
+    min-height: 100vh;
+    max-height: max-content;
+    /* height: 100vh; */
+    background-color: rgb(226, 197, 93);
+}
+
+.title{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 3.2em;
+    font-weight: 600;
+
+}
+.pcontent{
+    display: flex;
+width: max-content;
+margin-left: auto;
+margin-right: auto;
+padding-top: 50px;
+
+}
+
+.pcard{
+    background-color: antiquewhite;
+    width: 25vw;
+   margin: 30px;
+   border-radius: 15px;
+    
+}
+.phead{
+    padding:8px;
+    font-size: 2em;
+    font-weight:500 ;
+}
+.pdisc{
+    padding: 5px;
+font-size: 1.2em;
+}
+.pimg{
+    height: 250px;
+    width: 25vw;
+}
+#contact{
+
+    height: 100vh;
+    background-color: rgb(175, 106, 239);
+
+}
+.ccontent {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    display: flex;
+}
+#faddr{
+    font-size: 3em;
+    font-weight: 400;
+    padding-right: 30px;
+}
+.himg{
+    padding-left: 10px;
+    height: 70px;
+}
+#handles{
+    border-left:5px solid rgb(169, 169, 169);
+    padding-left: 10px;
+}
